@@ -6,6 +6,7 @@ import TrafficLights from "./components/projects/main/TrafficLights";
 import Fallback from "./components/pages/Fallback";
 import Accordion from "./components/projects/main/Accordion";
 import StarRating from "./components/projects/main/StarRating";
+import ColumnTable from "./components/projects/main/ColumnTable";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/challenge/traffic-lights" element={<TrafficLights />} />
           <Route path="/challenge/accordion" element={<Accordion />} />
           <Route path="/challenge/star-rating" element={<StarRating />} />
+          <Route path="/challenge/column-table" element={<ColumnTable />} />
           <Route path="*" element={<Fallback />} />
         </Routes>
       </Router>

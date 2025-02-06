@@ -8,10 +8,10 @@ const Home = () => {
     { id: "traffic-lights", name: "Traffic Lights" },
     { id: "accordion", name: "Accordion" },
     { id: "star-rating", name: "Star rating" },
-    { id: "modal-popup", name: "Modal Popup" },
     { id: "column-table", name: "Column Table" },
     { id: "telephone-formatter", name: "Telephone Formatter" },
     { id: "guess-the-number", name: "Guess The Number" },
+    { id: "modal-popup", name: "Modal Popup" },
   ];
 
   return (
