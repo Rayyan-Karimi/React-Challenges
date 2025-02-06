@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import ChallengeHeader from "../util/ChallengeHeader";
+import ChallengeHeader from "../../util/ChallengeHeader";
 const Stopwatch = () => {
   const [isActive, setActive] = useState(false);
   const [timer, setTimer] = useState(0);

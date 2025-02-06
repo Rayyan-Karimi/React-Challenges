@@ -1,9 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Header from "./util/Header";
+import Header from "../util/Header";
 import { Link } from "react-router-dom";
 
-const Home = (props) => {
+const Home = () => {
   const challenges = [
     { id: "stopwatch", name: "Stop Watch" },
     { id: "grid-lights", name: "Grid Lights" },
@@ -40,7 +38,5 @@ const Home = (props) => {
     </div>
   );
 };
-
-Home.propTypes = {};
 
 export default Home;

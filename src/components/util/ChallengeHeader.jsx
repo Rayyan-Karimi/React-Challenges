@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 
 const ChallengeHeader = ({ title = "FRONTEND MINI CHALLENGES" }) => {
   return (
-    <div className="flex justify-between items-center bg-gray-600 p-4 mb-4 text-l text-white shadow-2xl">
+    <div
+      className={`flex justify-between items-center p-4 mb-4 text-l text-white shadow-2xl ${
+        title === "Error 404" ? "bg-red-600" : "bg-gray-600"
+      }`}
+    >
       <Link to={`/`}>
         <p className="text-xl">&#60;</p>
       </Link>
