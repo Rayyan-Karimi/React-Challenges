@@ -12,6 +12,7 @@ const Home = () => {
     { id: "telephone-formatter", name: "Telephone Formatter" },
     { id: "guess-the-number", name: "Guess The Number" },
     { id: "modal-popup", name: "Modal Popup" },
+    { id: "word-connect", name: "Word Connect" },
   ];
 
   return (
